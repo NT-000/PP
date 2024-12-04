@@ -27,7 +27,6 @@
                         Console.Clear();
                         pika.Feed();
                         break;
-                        ;
                     case "2":
                         Console.Clear();
                         pika.Play();

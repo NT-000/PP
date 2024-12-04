@@ -43,6 +43,7 @@ namespace Tamagotchi
             pokemon.Add(poke);
             Console.WriteLine($"{Name} just hatched...");
             Thread.Sleep(1500);
+            
         }
         public void RandomEvent()
         {   
