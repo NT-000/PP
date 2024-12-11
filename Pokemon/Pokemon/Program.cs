@@ -1,0 +1,4 @@
+﻿
+using Pokemon;
+
+new PokemonWorld();
