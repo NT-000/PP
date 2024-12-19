@@ -44,11 +44,11 @@ namespace Pokemon
         public void Battle(PokemonTrainer _myTrainer, PokemonTrainer gymTrainer)
         {
 
-            DisplayStats(_myTrainer, gymTrainer);
             Console.WriteLine("1. Attack");
             Console.WriteLine("2. Use item");
             while (_myTrainer.SelectedPokemon.Health >= 0 && gymTrainer.SelectedPokemon.Health >= 0)
             {
+                DisplayStats(_myTrainer, gymTrainer);
                 switch (Console.ReadLine())
                 {
                     case "1":
